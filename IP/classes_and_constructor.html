@@ -1,0 +1,27 @@
+<html lang="en">
+  <head> </head>
+  <body>
+    <p id="pp">This is VCET</p>
+    <script>
+      class C {
+        constructor(name) {
+          this.name = name;
+        }
+      }
+      let c = new C("vcet");
+      class B {
+        constructor(c) {
+          this.c = c;
+        }
+      }
+      let b = new B(c);
+      class A {
+        constructor(b) {
+          this.b = b;
+        }
+      }
+      let a = new A(b);
+      console.log(a.b.c.name);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+Sure, in simpler terms:
+
+**Creating a Crowdfunding Website for Donors and Those in Need**
+
+**1. Planning:**
+   - Figure out what your website should do and who it's for.
+   - Make a detailed plan with timelines and costs.
+
+**2. Features:**
+   - Decide what kinds of fundraising projects your site will support (like medical bills or school fees).
+   - Think about what people can do on your site, like starting campaigns or giving money.
+   - Make a way for people to join and have their own profiles.
+   - Set up a way for people to pay securely.
+
+**3. Design and How It Works:**
+   - Make your site look good and easy to use on phones and computers.
+   - Make sure anyone, including people with disabilities, can use it.
+   - Use pictures and videos to show what the campaigns are about.
+   - Make sure your site looks trustworthy and real.
+
+**4. Building It:**
+   - Choose the computer tools to build your site (like HTML, CSS, and JavaScript).
+   - Make the part where people sign up and log in.
+   - Build the part where people make campaigns and manage them.
+   - Set up how people pay and get paid safely.
+   - Make profiles for people to see their campaigns and donations.
+   - Keep all the data and money safe.
+
+**5. Testing:**
+   - Test your site a lot to find and fix problems.
+   - Let real people try it out and tell you what's good and what's not.
+
+**6. Putting It Online:**
+   - Find a good place to put your site on the internet.
+   - Get a web address and make sure it's secure (the address should start with "https://").
+  
+**7. Telling People:**
+   - Tell people about your site and why it's great.
+   - Use social media, emails, and blogs to let people know.
+   - Get help from famous people or groups to talk about your site.
+
+**8. Helping Users and Keeping It Up:**
+   - Help users if they have questions or problems.
+   - Keep your site up to date and fix any issues.
+   - Make your site better by listening to what users say.
+
+**9. Legal Stuff:**
+   - Make sure your site follows all the rules and laws.
+   - Write clear terms and policies for users.
+   - Keep user data safe and private.
+
+**10. Growing and Future Plans:**
+   - Watch how many people use your site and make sure it works well for them.
+   - Think about adding new kinds of fundraising projects.
+   - Maybe make a mobile app in the future.
+   - Keep listening to users and make your site even better.
+
+Creating a crowdfunding website is a big task, but with careful planning and work, it can help people raise money for important causes.

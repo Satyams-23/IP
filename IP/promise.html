@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <p id="pp">This is VCET</p>
+    <script>
+      // Function A returns a Promise that resolves after 50 milliseconds with the string "A".
+      function A() {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => resolve("A"), 50);
+        });
+      }
+
+      // Function B returns a Promise that resolves after 50 milliseconds with the string "B".
+      function B() {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => resolve("B"), 5000);
+        });
+      }
+
+      // Function C returns a Promise that resolves after 50 milliseconds with the string "C".
+      function C() {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => resolve("C"), 50);
+        });
+      }
+
+      // Function D is called when the page loads.
+      function D() {
+        // Call functions A, B, and C, which return Promises.
+        let a = A();
+        let b = B();
+        let c = C();
+
+        // Log the resolved values of the Promises and the string "hello".
+        console.log(a.then(console.log));
+        console.log(b.then(console.log));
+        console.log(c.then(console.log));
+        console.log("hello");
+      }
+
+      // Call function D to start the asynchronous operations.
+      D();
+    </script>
+  </body>
+</html>

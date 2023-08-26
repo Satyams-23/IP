@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      // Define a JavaScript function named 'func' using the 'new Function' constructor.
+      // It takes two parameters 'a' and 'b'.
+      const func = new Function("a", "b", "document.write(a + b)");
+    </script>
+  </head>
+  <body>
+    <!-- Create a button element -->
+    <input type="button" onclick="func(2, 3);" value="say hello" />
+  </body>
+</html>

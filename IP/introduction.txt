@@ -1,0 +1,36 @@
+Let's briefly explore the concepts you mentioned:
+
+1. **Working of Web Browser:**
+   - A web browser is a software application that retrieves and displays web pages. It sends HTTP requests to web servers, receives HTML and other resources, and renders them to display web content.
+
+2. **HTTP Protocol (Hypertext Transfer Protocol):**
+   - HTTP is a protocol used for communication between a web browser and web server. It defines how requests and responses should be formatted and exchanged.
+
+3. **HTTPS (Hypertext Transfer Protocol Secure):**
+   - HTTPS is a secure version of HTTP that encrypts data exchanged between a web browser and server using SSL/TLS. It ensures data privacy and security during transmission.
+
+4. **DNS (Domain Name System):**
+   - DNS is a system that translates human-readable domain names (e.g., www.example.com) into IP addresses, allowing browsers to locate web servers.
+
+5. **TLS (Transport Layer Security):**
+   - TLS is a cryptographic protocol used to secure data transmission over the internet. It's often used with HTTPS to provide data encryption and authentication.
+
+6. **XML (Extensible Markup Language) Introduction:**
+   - XML is a markup language used for structuring and encoding data. It's often used for data interchange between different systems.
+
+7. **JSON (JavaScript Object Notation) Introduction:**
+   - JSON is a lightweight data interchange format. It's easy for humans to read and write and easy for machines to parse and generate.
+
+8. **DOM (Document Object Model):**
+   - DOM is a programming interface for web documents. It represents the structure of an HTML or XML document as a tree of objects that can be manipulated by scripts.
+
+9. **URL (Uniform Resource Locator):**
+   - A URL is a web address that specifies the location of a resource on the internet. It includes the protocol (e.g., http), domain name, and path.
+
+10. **URI (Uniform Resource Identifier):**
+    - A URI is a string of characters that identifies a resource. URLs are a subset of URIs.
+
+11. **REST API (Representational State Transfer):**
+    - REST is an architectural style for designing networked applications. A REST API exposes resources that clients can access and manipulate using standard HTTP methods (GET, POST, PUT, DELETE).
+
+In a typical interaction, a web browser sends an HTTP or HTTPS request to a web server, the DNS system resolves the domain to an IP address, TLS may be used for encryption, the server responds with HTML/XML/JSON data, the browser renders the content using the DOM, and JavaScript can be used to manipulate or fetch additional data from REST APIs. These concepts are fundamental to the operation of the World Wide Web and web applications.

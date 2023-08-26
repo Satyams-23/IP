@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>
+Cookie
+</title>
+</head>
+<body>
+<h1 onClick = "genCook()"> Cookie example </h1>
+<button onClick = "getCookie()">GET</button>
+<button onClick = "genCook()">GEN</button>
+
+<script>
+	function genCook(){
+
+		document.cookie = "name=rehman";
+	}
+	function getCookie(){
+		if(document.cookie.length != 0){
+			alert(document.cookie);
+		}else{
+			alert("Not ");
+		}
+	}
+	
+</script>
+</body>
+</html>
