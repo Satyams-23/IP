@@ -1,26 +1,39 @@
 <html lang="en">
-  <head> </head>
+  <head></head>
   <body>
     <p id="pp">This is VCET</p>
     <script>
+      // Define class C with a 'name' property in its constructor
       class C {
         constructor(name) {
           this.name = name;
         }
       }
+
+      // Create an instance of class C with the name "vcet"
       let c = new C("vcet");
+
+      // Define class B, which takes an instance of class C as a parameter
       class B {
         constructor(c) {
           this.c = c;
         }
       }
+
+      // Create an instance of class B, passing the 'c' instance to it
       let b = new B(c);
+
+      // Define class A, which takes an instance of class B as a parameter
       class A {
         constructor(b) {
           this.b = b;
         }
       }
+
+      // Create an instance of class A, passing the 'b' instance to it
       let a = new A(b);
+
+      // Access and log properties of the composed objects
       console.log(a.b.c.name);
     </script>
   </body>
